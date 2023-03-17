@@ -155,8 +155,9 @@ if __name__ ==  '__main__':
 # NFO Console colour output
 #
 # https://docs.python.org/3/library/logging.html
-
+#
 # https://docs.python.org/3/library/logging.html#logrecord-attributes
+#
 # NFO Format LogRecord attributes
 
 '''

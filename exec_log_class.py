@@ -144,15 +144,13 @@ class exec_logging():
         
         else:
             return logging.error("invalid log level: " + str(self.level))     
-    
-# Stand-alone Function Testing
-
 
 # NFO Console colour output
 #
 # https://docs.python.org/3/library/logging.html
 
 # https://docs.python.org/3/library/logging.html#logrecord-attributes
+# 
 # NFO Format LogRecord attributes
 
 '''
