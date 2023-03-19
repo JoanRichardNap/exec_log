@@ -3,13 +3,13 @@
     
 '''
 
-# ###########################################
-# License: GNU GENERAL PUBLIC LICENSE       #
-# Copyright: R.J. Nap - AutoExec.nl         #
-# Thank you for using Exec_log              #
-# If possible, please support me at:        #
-# BTC: 3PBtoTbpfB7rv6qx8Mg2vFr92Qvc3UjSSD   #
-# ###########################################
+# #############################################
+# License: GNU GENERAL PUBLIC LICENSE GPL-3.0 #
+# Copyright: R.J. Nap - AutoExec.nl           #
+# Thank you for using Exec_log                #
+# If possible, please support me at:          #
+# BTC: 3PBtoTbpfB7rv6qx8Mg2vFr92Qvc3UjSSD     #
+# #############################################
 
 
 class exec_logging():
@@ -26,7 +26,7 @@ class exec_logging():
         ''' 
             # Enhance your Python logging with colors
             
-            Hi, I am exec_log 0.1 , and I add color to your linux logging requests. You can use strings or int for your logging level and log to console or cvs
+            Hi, I am exec_log 0.1 Class function , and I add color to your linux logging requests. You can use strings or int for your logging level and log to console or cvs
 
             All default logging is done on level [DEBUG] unless specified: debug/info/warning/error/critical.
 
@@ -36,7 +36,7 @@ class exec_logging():
 
             ## Usage
 
-            from exec_log import exec_log
+            from exec_log_class import exec_logging as exec_log
             exec_log("test my log")
 
             Example 1: exec_log("foo") returns debug log message 'foo'

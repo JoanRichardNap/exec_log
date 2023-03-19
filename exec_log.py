@@ -3,14 +3,13 @@
     
 '''
 
-# ###########################################
-# License: GNU GENERAL PUBLIC LICENSE       #
-# Copyright: R.J. Nap - AutoExec.nl         #
-# Thank you for using Exec_log              #
-# If possible, please support me at:        #
-# BTC: 3PBtoTbpfB7rv6qx8Mg2vFr92Qvc3UjSSD   #
-# ###########################################
-
+# #############################################
+# License: GNU GENERAL PUBLIC LICENSE GPL-3.0 #
+# Copyright: R.J. Nap - AutoExec.nl           #
+# Thank you for using Exec_log                #
+# If possible, please support me at:          #
+# BTC: 3PBtoTbpfB7rv6qx8Mg2vFr92Qvc3UjSSD     #
+# #############################################
 
 import logging
 
@@ -19,7 +18,7 @@ def exec_log(message="Log call.", level="debug", developer=False):
         ''' 
             # Enhance your Python logging with colors
             
-            Hi, I am exec_log 0.1 , and I add color to your linux logging requests. You can use strings or int for your logging level and log to console or cvs
+            Hi, I am exec_log 0.1 function, and I add color to your linux logging requests. You can use strings or int for your logging level and log to console or cvs
 
             All default logging is done on level [DEBUG] unless specified: debug/info/warning/error/critical.
 
@@ -109,8 +108,7 @@ def exec_log(message="Log call.", level="debug", developer=False):
             # logging output to file
             
             logging.basicConfig(format=settings_log["format"], filename=settings_log["log_file"], level=settings_log["level"], filemode="a", encoding="utf-8")
-            
-      
+              
         # Handle log request 
 
         if str(level) == "debug" or str(level)      == "1":

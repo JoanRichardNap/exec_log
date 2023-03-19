@@ -10,10 +10,16 @@ All default logging is done on level [1] unless specified: 1/2/3/4/5.
 
 If developer mode is True, console logging is active instead of file logging.
 
-## Usage
+## Function import
 
 from exec_log import exec_log
 exec_log("test my log")
+
+## Class import
+
+from exec_log_class import exec_logging as exec_log
+
+## Examples
 
 Example 1: exec_log("foo") returns debug log message 'foo'
 
@@ -31,12 +37,18 @@ Example 6: exec_log("foo", "doom") returns level error
 
 Example 7: exec_log("foo", 9) returns level error
 
+# Tested on
+
+- Ubuntu 22 Terminal
+- Ubuntu 22 Console
+- Ubuntu 22 Visual Studio console
+
 ### Have a nice day logging!
 
 ---
 
-#### License: GNU GENERAL PUBLIC LICENSE       #
-#### Copyright: R.J. Nap - AutoExec            #
-#### Thank you for using Exec_log              #
-#### If possible, please support me at:        #
-#### BTC: 3PBtoTbpfB7rv6qx8Mg2vFr92Qvc3UjSSD   #
+#### License: GNU GENERAL PUBLIC LICENSE GPL-3.0 #
+#### Copyright: R.J. Nap - AutoExec              #
+#### Thank you for using Exec_log                #
+#### If possible, please support me at:          #
+#### BTC: 3PBtoTbpfB7rv6qx8Mg2vFr92Qvc3UjSSD     #

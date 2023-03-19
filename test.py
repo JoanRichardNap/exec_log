@@ -2,13 +2,13 @@
     test.py
 '''
 
-# ###########################################
-# License: GNU GENERAL PUBLIC LICENSE       #
-# Copyright: R.J. Nap - AutoExec.nl         #
-# Thank you for using Exec_log              #
-# If possible, please support me at:        #
-# BTC: 3PBtoTbpfB7rv6qx8Mg2vFr92Qvc3UjSSD   #
-# ###########################################
+# #############################################
+# License: GNU GENERAL PUBLIC LICENSE GPL-3.0 #
+# Copyright: R.J. Nap - AutoExec.nl           #
+# Thank you for using Exec_log                #
+# If possible, please support me at:          #
+# BTC: 3PBtoTbpfB7rv6qx8Mg2vFr92Qvc3UjSSD     #
+# #############################################
 
 
 output = input("enter [d] for developer console output and [l] for log file output: ")
