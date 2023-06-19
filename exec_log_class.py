@@ -24,7 +24,7 @@ class exec_logging():
         self.developer = developer
         
         ''' 
-            # Enhance your Python logging with colors
+            Enhance your Python logging with colors
             
             Hi, I am exec_log 0.1 Class function , and I add color to your linux logging requests. You can use strings or int for your logging level and log to console or cvs
 
@@ -34,7 +34,7 @@ class exec_logging():
 
             If developer mode is True, console logging is active instead of file logging.
 
-            ## Usage
+            Usage
 
             from exec_log_class import exec_logging as exec_log
             exec_log("test my log")
@@ -49,13 +49,13 @@ class exec_logging():
 
             Example 5: exec_log("foo" + "bar" + str(i), level="Warning", developer=False)
 
-            ## Wrong usage
+            Wrong usage
 
             Example 6: exec_log("foo", "doom") returns level error
 
             Example 7: exec_log("foo", 9) returns level error
 
-            ### Have a nice day logging!
+            Have a nice day logging!
     
         '''
         
@@ -148,13 +148,14 @@ class exec_logging():
 # NFO Console colour output
 #
 # https://docs.python.org/3/library/logging.html
-
+#
 # https://docs.python.org/3/library/logging.html#logrecord-attributes
-# 
-# NFO Format LogRecord attributes
+
 
 '''
 
+    NFO Format LogRecord attributes:
+    
     Attribute name      Format                  Description
     ==================  ======================  ===========
     asctime             %(asctime)s             Human-readable time when the LogRecord was created. By default this is of the form ‘2003-07-08 16:49:45,896’ (the numbers after the comma are millisecond portion of the time).
